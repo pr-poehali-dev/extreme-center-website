@@ -38,7 +38,7 @@ export default function AboutPage() {
           <div>
             <h2 className="font-display text-3xl font-bold mb-4">Наша история</h2>
             <p className="text-sm leading-relaxed mb-4" style={{ color: 'hsl(var(--muted-foreground))' }}>
-              МотоМир основан в 2014 году командой энтузиастов мотоспорта. Начав с небольшого шоурума в Москве, мы выросли до крупнейшей сети продаж мототехники в России.
+              Экстрим Центр основан в 2014 году командой энтузиастов мотоспорта. Начав с небольшого шоурума в Ачинске, мы выросли до одного из крупнейших магазинов мототехники в регионе.
             </p>
             <p className="text-sm leading-relaxed mb-4" style={{ color: 'hsl(var(--muted-foreground))' }}>
               Сегодня мы — официальный партнёр Honda, Yamaha, BMW Motorrad, KTM, Harley-Davidson, Kawasaki, Suzuki и Ducati. В нашем каталоге более 200 актуальных моделей.
@@ -49,7 +49,7 @@ export default function AboutPage() {
           </div>
           <div className="space-y-3">
             {[
-              { year: '2014', event: 'Открытие первого шоурума в Москве' },
+              { year: '2014', event: 'Открытие первого шоурума в Ачинске' },
               { year: '2016', event: 'Статус официального дилера Honda и Yamaha' },
               { year: '2018', event: 'Расширение: добавили BMW и KTM' },
               { year: '2020', event: 'Запуск онлайн-магазина и доставки по России' },
