@@ -21,9 +21,9 @@ export default function ContactsPage() {
         <div>
           <div className="space-y-4 mb-8">
             {[
-              { icon: 'MapPin', title: 'Адрес', val: 'Москва, ул. Байкерская, д. 1', sub: 'ТЦ МотоПарк, 1 этаж' },
-              { icon: 'Phone', title: 'Телефон', val: '8 (800) 555-35-35', sub: 'Бесплатно по России' },
-              { icon: 'Mail', title: 'Email', val: 'info@motomir.ru', sub: 'Отвечаем в течение часа' },
+              { icon: 'MapPin', title: 'Адрес', val: 'г. Ачинск, ул. Дзержинского, 5Ф', sub: 'Приходите в любое время работы' },
+              { icon: 'Phone', title: 'Телефон', val: '8 (950) 983-18-23', sub: 'Звоните — ответим сразу' },
+              { icon: 'Mail', title: 'Email', val: 'info@extremecenter.ru', sub: 'Отвечаем в течение часа' },
               { icon: 'Clock', title: 'Режим работы', val: 'Пн–Вс: 9:00–21:00', sub: 'Без выходных' },
             ].map(item => (
               <div key={item.title} className="flex gap-4 p-4 rounded-lg border" style={{ background: 'hsl(var(--card))', borderColor: 'hsl(var(--border))' }}>
