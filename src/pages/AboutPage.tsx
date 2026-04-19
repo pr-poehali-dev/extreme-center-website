@@ -6,11 +6,11 @@ export default function AboutPage() {
       {/* Hero */}
       <div className="relative py-24 px-4 text-center overflow-hidden" style={{ background: 'hsl(0,0%,7%)' }}>
         <div className="absolute inset-0 flex items-center justify-center opacity-5 font-display text-[20rem] font-black select-none pointer-events-none leading-none" style={{ color: '#FF7A00' }}>
-          ММ
+          ЭЦ
         </div>
         <div className="relative max-w-3xl mx-auto">
           <div className="text-xs font-display font-semibold uppercase tracking-widest mb-4" style={{ color: '#FF7A00' }}>С 2014 года</div>
-          <h1 className="font-display text-5xl md:text-6xl font-black mb-4 leading-tight">О КОМПАНИИ<br /><span style={{ color: '#FF7A00' }}>МОТОМИР</span></h1>
+          <h1 className="font-display text-5xl md:text-6xl font-black mb-4 leading-tight">О КОМПАНИИ<br /><span style={{ color: '#FF7A00' }}>ЭКСТРИМ ЦЕНТР</span></h1>
           <p className="text-lg leading-relaxed" style={{ color: 'hsl(var(--muted-foreground))' }}>
             Крупнейший независимый дилер мototехники в России. 12 лет опыта, 5000+ довольных клиентов, официальное представительство 8 мировых брендов.
           </p>

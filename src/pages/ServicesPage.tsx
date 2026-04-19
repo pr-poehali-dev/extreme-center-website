@@ -93,9 +93,9 @@ export default function ServicesPage() {
         <h2 className="font-display text-3xl font-bold mb-3">Нужна консультация?</h2>
         <p className="mb-6" style={{ color: 'hsl(var(--muted-foreground))' }}>Позвоните или оставьте заявку — наш специалист ответит в течение 15 минут</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="tel:88005553535" className="inline-flex items-center gap-2 px-8 py-3 rounded font-display font-semibold text-sm uppercase tracking-wide transition-all hover:scale-[1.02]" style={{ background: '#FF7A00', color: '#000' }}>
+          <a href="tel:89509831823" className="inline-flex items-center gap-2 px-8 py-3 rounded font-display font-semibold text-sm uppercase tracking-wide transition-all hover:scale-[1.02]" style={{ background: '#FF7A00', color: '#000' }}>
             <Icon name="Phone" size={16} />
-            8 (800) 555-35-35
+            8 (950) 983-18-23
           </a>
           <button className="inline-flex items-center gap-2 px-8 py-3 rounded border font-display font-semibold text-sm uppercase tracking-wide transition-all" style={{ borderColor: 'hsl(var(--border))', color: 'hsl(var(--foreground))' }}>
             <Icon name="MessageSquare" size={16} />

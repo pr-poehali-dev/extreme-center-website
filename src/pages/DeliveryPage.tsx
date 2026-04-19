@@ -7,7 +7,7 @@ export default function DeliveryPage() {
       <p className="section-subtitle">Доставляем мototехнику по всей России</p>
 
       {/* Delivery options */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
         {[
           {
             icon: 'Truck',
@@ -18,18 +18,10 @@ export default function DeliveryPage() {
             color: '#10B981',
           },
           {
-            icon: 'Package',
-            title: 'Самовывоз',
-            price: 'Бесплатно',
-            desc: 'Москва, ул. Байкерская 1',
-            detail: 'Ежедневно с 9:00 до 21:00. Бесплатное хранение 7 дней.',
-            color: '#FF7A00',
-          },
-          {
             icon: 'MapPin',
-            title: 'Доставка по Москве',
+            title: 'Доставка по городу',
             price: 'от 5 000 ₽',
-            desc: 'В пределах МКАД',
+            desc: 'г. Ачинск и окрестности',
             detail: 'Собственная служба доставки. Срок 1–2 дня.',
             color: '#3B82F6',
           },
