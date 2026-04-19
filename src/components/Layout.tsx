@@ -29,13 +29,13 @@ export default function Layout({ children, activePage, onNavigate, cartCount }: 
         <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
           <div className="flex items-center gap-6 text-xs" style={{ color: 'hsl(var(--muted-foreground))' }}>
             <span className="flex items-center gap-1">
-              <Icon name="Phone" size={12} /> 8 (800) 555-35-35
+              <Icon name="Phone" size={12} /> 8 (950) 983-18-23
             </span>
             <span className="hidden md:flex items-center gap-1">
               <Icon name="Clock" size={12} /> Пн–Вс 9:00–21:00
             </span>
             <span className="hidden md:flex items-center gap-1">
-              <Icon name="MapPin" size={12} /> Москва, ул. Байкерская, 1
+              <Icon name="MapPin" size={12} /> г. Ачинск, ул. Дзержинского, 5Ф
             </span>
           </div>
           <div className="text-xs" style={{ color: '#FF7A00' }}>
@@ -50,11 +50,11 @@ export default function Layout({ children, activePage, onNavigate, cartCount }: 
           {/* Logo */}
           <button onClick={() => onNavigate('home')} className="flex items-center gap-2 group">
             <div className="w-9 h-9 rounded flex items-center justify-center font-display font-bold text-sm" style={{ background: '#FF7A00', color: '#000' }}>
-              ММ
+              ЭЦ
             </div>
             <div>
               <div className="font-display text-xl font-bold tracking-wide leading-none" style={{ color: 'hsl(var(--foreground))' }}>
-                МОТО<span style={{ color: '#FF7A00' }}>МИР</span>
+                ЭКСТРИМ<span style={{ color: '#FF7A00' }}> ЦЕНТР</span>
               </div>
               <div className="text-[10px] leading-none" style={{ color: 'hsl(var(--muted-foreground))' }}>магазин мототехники</div>
             </div>
@@ -129,7 +129,7 @@ export default function Layout({ children, activePage, onNavigate, cartCount }: 
         <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <div className="font-display text-2xl font-bold mb-3">
-              МОТО<span style={{ color: '#FF7A00' }}>МИР</span>
+              ЭКСТРИМ<span style={{ color: '#FF7A00' }}> ЦЕНТР</span>
             </div>
             <p className="text-sm leading-relaxed mb-4" style={{ color: 'hsl(var(--muted-foreground))' }}>
               Крупнейший магазин мототехники в России. Официальный дилер Honda, Yamaha, BMW, KTM.
@@ -157,15 +157,15 @@ export default function Layout({ children, activePage, onNavigate, cartCount }: 
           <div>
             <div className="font-display font-semibold mb-4 text-sm uppercase tracking-wider">Контакты</div>
             <div className="space-y-2 text-sm" style={{ color: 'hsl(var(--muted-foreground))' }}>
-              <div className="flex items-center gap-2"><Icon name="Phone" size={14} /> 8 (800) 555-35-35</div>
-              <div className="flex items-center gap-2"><Icon name="Mail" size={14} /> info@motomir.ru</div>
-              <div className="flex items-center gap-2"><Icon name="MapPin" size={14} /> Москва, ул. Байкерская, 1</div>
+              <div className="flex items-center gap-2"><Icon name="Phone" size={14} /> 8 (950) 983-18-23</div>
+              <div className="flex items-center gap-2"><Icon name="Mail" size={14} /> info@extremecenter.ru</div>
+              <div className="flex items-center gap-2"><Icon name="MapPin" size={14} /> г. Ачинск, ул. Дзержинского, 5Ф</div>
               <div className="flex items-center gap-2"><Icon name="Clock" size={14} /> Пн–Вс 9:00–21:00</div>
             </div>
           </div>
         </div>
         <div className="border-t max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row items-center justify-between gap-2 text-xs" style={{ borderColor: 'hsl(var(--border))', color: 'hsl(var(--muted-foreground))' }}>
-          <span>© 2026 МотоМир. Все права защищены.</span>
+          <span>© 2026 Экстрим Центр. Все права защищены.</span>
           <span>ИНН 7701234567 · ОГРН 1234567890123</span>
         </div>
       </footer>
