@@ -23,7 +23,7 @@ export default function ContactsPage() {
             {[
               { icon: 'MapPin', title: 'Адрес', val: 'г. Ачинск, ул. Дзержинского, 5Ф', sub: 'Приходите в любое время работы' },
               { icon: 'Phone', title: 'Телефон', val: '8 (950) 983-18-23', sub: 'Звоните — ответим сразу' },
-              { icon: 'Mail', title: 'Email', val: 'info@extremecenter.ru', sub: 'Отвечаем в течение часа' },
+              { icon: 'Mail', title: 'Email', val: 'Kaposhkomatvey@gmail.com', sub: 'Отвечаем в течение часа' },
               { icon: 'Clock', title: 'Режим работы', val: 'Пн–Вс: 9:00–21:00', sub: 'Без выходных' },
             ].map(item => (
               <div key={item.title} className="flex gap-4 p-4 rounded-lg border" style={{ background: 'hsl(var(--card))', borderColor: 'hsl(var(--border))' }}>
@@ -37,6 +37,18 @@ export default function ContactsPage() {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Owner */}
+          <div className="flex gap-4 p-4 rounded-lg border mb-4" style={{ background: 'hsl(var(--card))', borderColor: 'hsl(var(--border))' }}>
+            <div className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 font-display font-bold text-sm" style={{ background: '#FF7A00', color: '#000' }}>
+              К
+            </div>
+            <div>
+              <div className="text-xs uppercase tracking-wider font-semibold mb-0.5" style={{ color: 'hsl(var(--muted-foreground))' }}>Владелец</div>
+              <div className="font-semibold text-sm">Капошко Матвей Андреевич</div>
+              <div className="text-xs" style={{ color: 'hsl(var(--muted-foreground))' }}>Руководитель Экстрим Центра</div>
+            </div>
           </div>
 
           {/* Social */}

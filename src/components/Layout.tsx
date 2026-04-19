@@ -158,7 +158,7 @@ export default function Layout({ children, activePage, onNavigate, cartCount }: 
             <div className="font-display font-semibold mb-4 text-sm uppercase tracking-wider">Контакты</div>
             <div className="space-y-2 text-sm" style={{ color: 'hsl(var(--muted-foreground))' }}>
               <div className="flex items-center gap-2"><Icon name="Phone" size={14} /> 8 (950) 983-18-23</div>
-              <div className="flex items-center gap-2"><Icon name="Mail" size={14} /> info@extremecenter.ru</div>
+              <div className="flex items-center gap-2"><Icon name="Mail" size={14} /> Kaposhkomatvey@gmail.com</div>
               <div className="flex items-center gap-2"><Icon name="MapPin" size={14} /> г. Ачинск, ул. Дзержинского, 5Ф</div>
               <div className="flex items-center gap-2"><Icon name="Clock" size={14} /> Пн–Вс 9:00–21:00</div>
             </div>
